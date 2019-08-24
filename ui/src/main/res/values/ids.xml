@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--statusbar-->
+    <item type="id" name="statusbarutil_fake_status_bar_view" />
+    <item type="id" name="statusbarutil_translucent_view" />
+
+
+
+    <!--SuperTextView-->
+    <item name="sLeftViewId" type="id" />
+    <item name="sCenterViewId" type="id" />
+    <item name="sRightViewId" type="id" />
+    <item name="sLeftImgId" type="id" />
+    <item name="sRightImgId" type="id" />
+    <item name="sRightCheckBoxId" type="id" />
+    <item name="sRightSwitchId" type="id" />
+    <!---->
+</resources>
