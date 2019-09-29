@@ -9,7 +9,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/jcamera" />
-            <option value="$PROJECT_DIR$/tinker" />
             <option value="$PROJECT_DIR$/ui" />
           </set>
         </option>

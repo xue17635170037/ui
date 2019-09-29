@@ -1,1 +1,1 @@
-include ':jcamera', ':ui', ':tinker'
+include ':jcamera', ':ui'

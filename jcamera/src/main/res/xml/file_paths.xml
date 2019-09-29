@@ -2,7 +2,8 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <paths>
         <external-path
-            name="camera_photos" path="Android/data/com.example.administrator.viewdemo/files/Pictures" /><!--相机图片保存图片路径，属于APP的存储空间-->
+            name="camera_photos"
+            path="Android/data/com.example.administrator.viewdemo/files/Pictures" /><!--相机图片保存图片路径，属于APP的存储空间-->
     </paths>
 
 </resources>

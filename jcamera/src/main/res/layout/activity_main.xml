@@ -5,17 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#fff"
     tools:context="com.example.administrator.viewdemo.MainActivity">
 
     <Button
         android:id="@+id/bt_registed"
         android:text="注册"
-        android:layout_width="match_parent"
+        android:layout_width="180dp"
         android:layout_height="wrap_content" />
     <Button
         android:id="@+id/bt_open_camera"
         android:text="去录制"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
 
 </LinearLayout>

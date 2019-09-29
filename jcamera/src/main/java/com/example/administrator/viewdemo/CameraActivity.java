@@ -79,7 +79,8 @@ public class CameraActivity extends AppCompatActivity {
                 }
                 //获取成功录像后的视频路径
                 Intent intent = new Intent();
-                intent.putExtra(CAMERA_EXTRAS, url);
+                Uri parse = Uri.parse(url);
+                intent.putExtra(CAMERA_EXTRAS, parse);
                 setResult(CAMERA_RESULT,intent);
                 finish();
             }
